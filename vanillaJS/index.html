@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Tab</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="tab-container">
+			<ul class="tab">
+				<li onclick="switchTab(this, 'one')" class="one">one</li>
+				<li onclick="switchTab(this, 'two')" class="two">two</li>
+				<li onclick="switchTab(this, 'three')" class="three">three</li>
+			</ul>
+			<div class="tab-content">
+				<div id="one" class="one"><li>this is content for tab one</li></div>
+				<div id="two" class="two"><li>this is content for tab two</li></div>
+				<div id="three" class="three"><li>this is content for tab three</li></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
